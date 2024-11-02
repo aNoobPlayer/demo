@@ -2,10 +2,10 @@
 
 using namespace std;
 int tong(int a, int b);
-{
-return a+b;
-}
 int hieu(int a, int b);
+{
+	return a - b;
+}
 int tich(int a, int b);
 float thuong(int a, int b);
 int main()
@@ -16,7 +16,7 @@ int main()
 	cin>>a;
 	cout<<"Nhap vao b";
 	cin>>b;
-	cout<<"Tong 2 ab la "<<tong(a,b);
+	cout<<"Hieu 2 ab la "<<hieu(a,b);
 	system("pause");
 	return 0;
 }
