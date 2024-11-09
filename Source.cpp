@@ -15,13 +15,12 @@ bool Ktsnt(int n){
 	}
 }
 	
-int tich(int a, int b); {
-	return a * b;
-}
-float thuong(int a, int b);
-int main()
-{
-	cout << "DAY LA CHUONG TRINH DE THUC HANH GIThub";
+int tich(int a, int b); 
 
-	cout <<"Nhap vao a,b";
+	
+	int main()
+	{
+		cout << "DAY LA CHUONG TRINH DE THUC HANH GIThub";
+
+		cout <<"Nhap vao a,b";
 }
